@@ -1,0 +1,53 @@
+
+  .html{
+    background-color:#F2F2F2; 
+  }
+.profile-employer{
+    position:absolute;
+    width: 400px;
+    height: 500px;
+    margin-left:4rem; 
+    top:8rem;
+     font-family: 'Poppins', sans-serif;
+     background-color: white !important;
+     padding: 1rem 1rem !important;
+     transition: box-shadow .3s !important;
+     border: none !important; 
+     border-radius: 1rem !important;
+     color: #505050 !important;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     padding-bottom: 60px;
+
+}
+.entreprise{
+   top: 10px;
+    margin-left: 530px;
+    position: absolute;
+    width: 610px;
+    height:300px;
+    background-color: #100D40 ;
+    transition: box-shadow .3s !important;
+    border: none !important; 
+    border-radius: 1rem !important;
+    color: #505050 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.EditEmployer{
+    position: absolute;
+    top: 460px;
+    margin: 0PX 280px;
+    width: 100px;
+    height: 39px; ;
+    background-color: #4C40F7;
+    outline: none;
+    border: none;
+    border-radius: 0.7rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    transition: 0.2s;
+    text-align: center;
+    }

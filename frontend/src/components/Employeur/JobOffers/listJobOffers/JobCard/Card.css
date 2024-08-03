@@ -1,0 +1,116 @@
+.cs {
+    background-color: #F2F2F2;
+    padding-bottom: 50px;
+}
+
+/* .job-section-wrapper {
+    margin-top: 5rem;
+  } */
+.job-section-top p {
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+    max-width: 600px !important;
+  }  
+.job-section-top h1 {
+    max-width: 700px !important;
+  }
+.job-section-top {
+  background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+
+  .job-section-info {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px !important; 
+    height: fit-content;
+    background-color: white !important;
+    padding: 1rem 1rem !important;
+    transition: box-shadow .3s !important;
+    border: none !important; 
+    border-radius: 1rem !important;
+    color: #505050 !important;
+    margin: 1rem 2rem !important;
+  }
+  
+.job-section-info:hover { 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+.job-section-info h2 {
+    margin: 0.5rem 0rem;
+    color: #100D40;
+  }
+
+  
+.job-section-bottom {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+   
+.job-section-info div ,.job-section-info p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
+
+  .job-section-info p {
+    margin-left: 70px ;
+    color: #2A49EF;
+  }
+
+  .info-boxes-details{
+    margin-left: 65px;
+    width: max-content;
+  }
+
+
+
+  .date{
+    float: left !important;
+    width: 100px;
+  }
+
+  .info-boxes-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .info-boxes-container h2 {
+    margin-left: 10px;
+  }
+
+ 
+  .line {
+    border: none;
+    border-left: 1px solid grey;
+    padding: 20px;
+    margin-left: 50%;
+  }
+  @media (max-width: 800px) {
+
+    .job-section-wrapper {
+        margin-top: 5rem !important;
+      }
+      .job-section-bottom {
+        margin-top: 1rem !important;
+      }
+  }
+
+  .card-btns {
+    padding-left: 34vw;
+  }
+
+  .recBtn {
+    margin-left: 45% !important;
+  }

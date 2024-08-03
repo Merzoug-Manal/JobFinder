@@ -1,0 +1,270 @@
+
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+    background-color:#F2F2F2; 
+  }
+  .html{
+    background-color:#F2F2F2; 
+  }
+  .profile{
+    padding-top: 2.5rem  !important;
+    display: flex;
+    flex-direction: column;
+   width:auto;
+   height: auto;
+   background-color:#F2F2F2; 
+  }
+  .experience {
+  margin-left: 560px;
+    position: relative;
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: fit-content;
+    background-color: white !important;
+    padding: 1rem 1rem !important;
+    transition: box-shadow .3s !important;
+    border: none !important; 
+    border-radius: 1rem !important;
+    color: #505050 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 60px;
+  }
+  
+  .languages, .education, .languages, .skills {
+    margin-left: 560px;
+    position: relative;
+    width: 610px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: fit-content;
+    background-color: white !important;
+    padding: 1rem 1rem !important;
+    transition: box-shadow .3s !important;
+    border: none !important; 
+    border-radius: 1rem !important;
+    color: #505050 !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 60px;
+  }
+    .information-personal{
+      position:absolute;
+       width: 400px;
+       height: 700px;
+       margin-left:4rem; 
+       top:8rem;
+        font-family: 'Poppins', sans-serif;
+        background-color: white !important;
+        padding: 1rem 1rem !important;
+        transition: box-shadow .3s !important;
+        border: none !important; 
+        border-radius: 1rem !important;
+        color: #505050 !important;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-bottom: 60px;
+     }
+  h3{
+  font-size: 25px;
+  padding-top: 20px; 
+  padding-left: 20px;
+  color: #100D40;
+  }
+  .Add{
+    position: absolute;
+    margin-left: 45vw;
+    background-color: #4C40F7  !important ;
+    top: 0px  !important ;
+   margin-top: 0px  !important ;
+  margin: 0PX 530px  !important  ;
+  }
+  .fenetre-skill{
+    position: relative;
+    height: 260px;
+    width: 580px;
+     padding-top: 15px;
+     border: 1px solid #060079;
+      border-radius: 15px;
+  }
+  .fenetre-experinece{
+    position: relative;
+    height: 400px;
+    width: 520px;
+     padding-left: 170px;
+     padding-top: 15px;
+     border: 1px solid #060079;
+      border-radius: 15px;
+   }
+ 
+    .fenetre-experinece input {
+      width: 100%;
+      padding: 15px;
+      margin: 10px 30px; 
+      border-radius: 5px;
+      border: 1px solid #585679 ;
+      width: 300px;
+      height: 18px;
+      outline: none;
+      color: #100D40;
+      font-size: 1em;
+      transition: 0.5s;
+  }
+  .fenetre-experinece textarea{
+  width: 100%;
+    padding: 13px;
+    margin: 10px 30px; 
+    border-radius: 5px;
+    border: 1px solid #100D40;
+    width: 300px;
+    height: 18px;
+    outline: none;
+    color: #100D40;
+    font-size: 1em;
+    transition: 0.5s;
+  
+  }
+  .fenetre-experinece label{
+    position: relative;
+    padding:15px ;
+    color: #100D40;
+    font-size: 15px;
+    top: 3px;
+    margin-top: 20px;
+  
+  }
+  #description{
+    position:absolute;
+    color: #100D40;
+    top: 130px;
+  }
+  #descriptionInput{
+    position:relative;
+    color: #100D40;
+    left:110px;
+  }
+  .cancel-btn{
+    position: absolute;
+    top: 360px;
+    margin: 0PX 65px;
+    width: 70px;
+    height: 38px; ;
+    background-color: #ffffff;;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 500;
+    color:#100D40;
+    border: solid 1.8px #100D40;
+    transition: 0.2s;
+  }
+  .save-btn{
+  position: absolute;
+  top: 360px;
+ right: 15px;
+  margin: 0PX 0px;
+  width: 70px;
+  height: 38px; ;
+  background-color: #ffffff;;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 500;
+  color:#100D40;
+  border: solid 1.8px #100D40;
+  transition: 0.2s;
+  }
+  .skill-btn{
+    position: absolute;
+  top: 200px;
+left: 480px;
+  margin: 0PX 0px;
+  width: 70px;
+  height: 38px; ;
+  background-color: #ffffff;;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 500;
+  color:#100D40;
+  border: solid 1.8px #100D40;
+  transition: 0.2s;
+  }
+ 
+ 
+  .titleProfile{
+    position: relative;
+    padding: 10px;
+  
+   color: #100D40;
+  }
+  .poste{
+    padding: 10PX;
+    width: 530px;
+    word-wrap: break-word ;
+  }
+  
+  .profile-photo-container {
+    position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  
+  .profile-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .Edit-info{
+   
+  position: absolute;
+  top: 200px;
+  margin: 0PX 310px  !important ;
+  width: 70px;
+  height: 35px; 
+  background-color: #4C40F7  !important;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  transition: 0.2s;
+  }
+  
+.profileInput {
+  width: 100%;
+  padding: 13px;
+  margin: 10px 30px; 
+  border-radius: 5px;
+  border: 1px solid #585679 ;
+  width: 300px;
+  height: 18px;
+  outline: none;
+  color: #100D40;
+  font-size: 1em;
+  transition: 0.5s;
+}
+
+

@@ -1,0 +1,63 @@
+
+  
+  .updateForm {
+    padding-top: 0 !important ;
+  }
+
+  .btn:disabled {
+      background-color: #b0abf7;
+    }
+  
+  .instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #e0e0e0;
+    color: #ffffff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+  }
+  
+  /* .instructions > svg {
+    margin-right: 0.25rem;
+  }
+   */
+  .offscreen {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .valid {
+    color: limegreen;
+    
+  }
+  
+  .invalid {
+    color: red;
+   
+  }
+  
+  .errmsg {
+    background-color: lightpink;
+   color: firebrick;
+   font-weight: bold;
+   padding: 0.5rem;
+   margin-bottom: 0.5rem;
+ }
+ 
+ .line {
+   display: inline-block;
+ }
+ 
+ input.invalid {
+   border-color: red;
+ }
+ 
+ 
+ input.valid {
+   border-color: green;
+ }

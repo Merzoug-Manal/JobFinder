@@ -1,0 +1,144 @@
+[33mcommit ee58ab8faad4103ddc1ed0c365af8e2168f787b4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 2c490ef 59aab67
+Author: Amira-Ania <83823770+Amira-Ania@users.noreply.github.com>
+Date:   Fri Mar 31 16:45:56 2023 +0100
+
+    Merge pull request #2 from /amira
+    
+    few changes front
+
+[33mcommit 59aab67ba8d250926d4d4274ce14f1671f6a3b19[m[33m ([m[1;31morigin/amira[m[33m)[m
+Author: Amira-Ania <a.adahache@gmail.com>
+Date:   Fri Mar 31 16:29:45 2023 +0100
+
+    few changes front
+
+[33mcommit 2c490effd4980958ab474801f45e1ca644a40b42[m
+Author: Amira-Ania <83823770+Amira-Ania@users.noreply.github.com>
+Date:   Fri Mar 31 00:15:31 2023 +0100
+
+    frontend commit
+
+[33mcommit 50cce80d2f8a10cb4bd155d8f954ad2fd098c008[m
+Merge: 3036e74 b7dc285
+Author: Amira-Ania <83823770+Amira-Ania@users.noreply.github.com>
+Date:   Fri Mar 31 00:11:56 2023 +0100
+
+    Merge pull request #1 from amira
+    
+    frontend commits
+
+[33mcommit b7dc28592e2629b65536d5e69782f566a1934977[m
+Author: Amira-Ania <83823770+Amira-Ania@users.noreply.github.com>
+Date:   Fri Mar 31 00:06:24 2023 +0100
+
+    Delete package.json
+
+[33mcommit 06a5e423b19d77b6f37333ae3028420f5ccb9837[m
+Author: Amira-Ania <83823770+Amira-Ania@users.noreply.github.com>
+Date:   Fri Mar 31 00:05:44 2023 +0100
+
+    Delete .env
+
+[33mcommit 06100491653c073fec6a48798b1d657278251b7b[m
+Author: Amira-Ania <83823770+Amira-Ania@users.noreply.github.com>
+Date:   Fri Mar 31 00:05:25 2023 +0100
+
+    Delete migration.sql
+
+[33mcommit 24589b72e485af476f73948028e3a84d2fab8450[m
+Author: Amira-Ania <a.adahache@gmail.com>
+Date:   Thu Mar 30 23:52:25 2023 +0100
+
+    frontend commits
+
+[33mcommit 3036e749356cf5f39ae208be210609a29dc32ac5[m
+Author: ikramyousfi <io.yousfi@esi-sba.dz>
+Date:   Thu Mar 30 06:44:31 2023 +0200
+
+    delete generating tokens from registration
+
+[33mcommit fcddbdea4f6fd07ea390e9eac014a447b6d86a4b[m
+Author: ikramyousfi <io.yousfi@esi-sba.dz>
+Date:   Thu Mar 30 01:06:00 2023 +0200
+
+    test
+
+[33mcommit a8d87c19da4f1d9801e2f9aeecb51edd00102ec1[m
+Author: ikramyousfi <io.yousfi@esi-sba.dz>
+Date:   Wed Mar 29 01:08:20 2023 +0200
+
+    add demandeur to kafka
+
+[33mcommit bf918a3061c546725d7a531a08a6f2610456a63e[m
+Author: ikramyousfi <io.yousfi@esi-sba.dz>
+Date:   Tue Mar 28 07:56:37 2023 +0200
+
+    super admin middleware
+
+[33mcommit 93e880a51fa2c6a89fbffc7df3366d204ea1af34[m
+Author: ikramyousfi <io.yousfi@esi-sba.dz>
+Date:   Tue Mar 28 07:20:03 2023 +0200
+
+    activer desactiver compte par admin
+
+[33mcommit 5705406353763c5f60afd38c0b7e97cab26c7685[m
+Author: ikramyousfi <io.yousfi@esi-sba.dz>
+Date:   Mon Mar 27 15:21:58 2023 +0200
+
+    auth middleware for all and udate
+
+[33mcommit 03dcad34fa9f35e63f3c2fc50052b377b39928c7[m
+Merge: ea2c1dd 732ed7b
+Author: ikramyousfi <io.yousfi@esi-sba.dz>
+Date:   Mon Mar 27 12:57:48 2023 +0200
+
+    broker
+
+[33mcommit ea2c1dde419d44ff59e1d818591a9f4cb2d98e9e[m
+Author: ikramyousfi <io.yousfi@esi-sba.dz>
+Date:   Mon Mar 27 12:42:13 2023 +0200
+
+    broker established
+
+[33mcommit 732ed7b9eddf841e908aaa3ffa7ff884fa9d2f26[m
+Author: Merzoug-Manal <127239819+Merzoug-Manal@users.noreply.github.com>
+Date:   Sun Mar 26 18:08:57 2023 -0100
+
+    Delete FrontEnd
+
+[33mcommit e92119b4a334854408683c8aa330c5c93d28de4b[m
+Author: Merzoug-Manal <127239819+Merzoug-Manal@users.noreply.github.com>
+Date:   Sun Mar 26 18:06:30 2023 -0100
+
+    Create FrontEnd
+
+[33mcommit 6b8524b0ff6ff8328bb963f045610dfd654deb61[m
+Author: Manar262001 <84629797+Manar262001@users.noreply.github.com>
+Date:   Sat Mar 25 23:35:45 2023 +0100
+
+    login and update
+
+[33mcommit 5aee370ba1d5d0d0834e2420712146f6b6f50a44[m
+Author: ikramyousfi <io.yousfi@esi-sba.dz>
+Date:   Thu Mar 23 22:01:20 2023 +0100
+
+    admin delete and get users+ auth admin middleware
+
+[33mcommit 22e5a4117a150ec50c24ce7ab00e3c6944fe693e[m
+Author: ikramyousfi <io.yousfi@esi-sba.dz>
+Date:   Thu Mar 23 15:41:59 2023 +0100
+
+    reset password
+
+[33mcommit 819114059c5ea2e37880f677832927611df50f00[m
+Author: ikramyousfi <io.yousfi@esi-sba.dz>
+Date:   Wed Mar 22 20:35:10 2023 +0100
+
+    registration with confirmation
+
+[33mcommit d74c701ccc5eb6163588f4b9e5602da9d2bdab62[m
+Author: ikramyousfi <io.yousfi@esi-sba.dz>
+Date:   Tue Mar 21 20:28:25 2023 +0100
+
+    first commit

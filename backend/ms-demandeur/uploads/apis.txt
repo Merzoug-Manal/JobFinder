@@ -1,0 +1,70 @@
+create sous admins: -post-
+http://127.0.0.1:5000/api/auth/register/admin ------->bearer token tae super_admin berk
+
+create demandeur/employeur  -post-
+http://127.0.0.1:5000/api/auth/register/demandeur
+http://127.0.0.1:5000/api/auth/register/employeur
+
+
+confirmation tae registration -get-
+http://127.0.0.1:5000/api/auth/confirm/io.yousfi@esi-sba.dz ---------->twsl par mail ki tcliqui f link t confirma user
+
+
+get users -get-
+http://127.0.0.1:5000/api/getAll---------->header bearer token tae admins wla super_admin
+req.body: 
+{
+    "role":"Employeur" -----wla "Demandeur" wla "admin"-----
+}
+
+
+forget pwd -post- 
+http://127.0.0.1:5000/api/auth/forget-password----------->generé a token tae reset pwd 
+req.body:
+{
+    "email": "admin@gmail.com"
+}
+
+reset a pwd: -post-
+http://127.0.0.1:5000/api/auth/reset-password/4f4307e2-9f13-4912-b1c6-d8ef348d33cb<-------- hada howa token li ygenerih forget pwd not token tae login 
+req.body: new pwd
+{
+    "password": "aaa"
+}
+
+
+
+
+get by id -get-
+http://127.0.0.1:5000/api/getOne/33(id) -------*>bearer token tae admin wla super_admin
+
+delete by id
+http://127.0.0.1:5000/api/getOne/33(id) ------------kifkif
+
+
+
+
+
+login -post-
+http://127.0.0.1:5000/api/auth/login
+req.body
+{
+    "email": "admin@gmail.com",
+    "password":"aaa"
+}
+
+
+update -put-
+http://127.0.0.1:5000/api/auth/update/5(id)------------bearker token 
+{
+    "nom":"ikramm"
+}
+
+
+
+activate or dis account -put ------------------*>bearer token tae admin wla super_admin
+http://127.0.0.1:5000/api/disable-account/15(id)
+ida kan active tae false zidi f req.body 
+{
+    "active":true
+} sinn 3akss

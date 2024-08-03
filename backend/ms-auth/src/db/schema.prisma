@@ -1,0 +1,52 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Compte{
+  id        Int      @id @default(autoincrement())
+  nom         String
+  prenom     String
+  email      String   @unique
+  password  String
+  role Role
+  resetPasswordToken     String? @unique
+  resetPasswordExpires   BigInt?
+  active Boolean @default(false)
+  createdAt DateTime @default(now())
+ 
+}
+
+// model Admin{
+//   id        Int      @id @default(autoincrement())
+//   nom String
+//   prenom String
+//   phone String
+//   genre Sexe
+//   is_superAdmin Boolean @default(false)
+
+//   //compte Compte @relation(fields: [CompteId], references: [id]) 
+//   CompteId Int
+  
+//   createdAt DateTime @default(now())
+ 
+// }
+
+enum Role{
+  super_admin
+  Employeur
+  Demandeur
+  admin
+}
+
+enum Sexe{
+  Femme
+  Homme
+}

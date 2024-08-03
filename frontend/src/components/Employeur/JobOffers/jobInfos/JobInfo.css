@@ -1,0 +1,152 @@
+
+.job-info-wrapper {
+  display: flex;
+}
+
+.info {
+  width: 60% !important; 
+}
+.job-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: fit-content;
+  background-color: white !important;
+  padding: 1rem 1rem !important;
+  transition: box-shadow .3s !important;
+  border: none !important; 
+  border-radius: 1rem !important;
+  color: #505050 !important;
+  margin: 1rem 2rem !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 60px;
+}
+
+.info-employer {
+  width: 22% !important; 
+}
+
+.job-info h2 {
+  margin: 0.5rem 0rem;
+  color: #100D40;
+}
+ 
+.job-info h4{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.job-info h4 {
+  margin-left: 70px ;
+  color: #2A49EF;
+}
+
+.boxes-details{
+  margin-left: 65px;
+  width: max-content;
+ display: block;
+}
+
+.date{
+  float: left !important;
+  width: 100px;
+}
+
+.info-boxes-container {
+  display: flex;
+  align-items: center;
+}
+
+.info-boxes-container h2 {
+  margin-left: 10px;
+}
+
+.nbr {
+  float: right;
+  margin-left: 50px;
+}
+.line {
+  border: none;
+  border-left: 1px solid grey;
+  padding: 20px;
+  margin-left: 50%;
+}
+@media (max-width: 800px) {
+
+  .job-section-wrapper {
+      margin-top: 5rem !important;
+    }
+   
+  .JobInfocard {
+    flex-direction: column;
+    
+  }  
+  }
+.JobInfocard {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 1rem;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.column {
+  margin: 0 3rem;
+}
+
+.column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.col2 {
+  float: right;
+}
+
+.column p {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 800px) {
+  .column .MuiChip-root {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.line-horizontal{
+  border: none;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  padding: 0 10;
+  width: 100%;
+ 
+}
+
+.job-info-bottom {
+  width: 400px;
+  padding: 20px; 
+}
+
+.info-container h2 {
+  margin-bottom: 10px;
+}
+
+.info-label {
+  font-weight: 600;
+}
+
+.info-value {
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.editButton 
+{
+  margin-left: 30vw;
+}
+
+.applicants-info {
+  width: 90%;
+}

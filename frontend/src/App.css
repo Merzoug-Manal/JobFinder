@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  font-family: 'Poppins', sans-serif;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  text-align:center ;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color:#F2F2F2;
+}
+
+.auth-form, .login-form, .signup-form,.SignEmployer, .select, .reset-form{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.reset-form{
+  padding: 50px;
+}
+.auth-form{
+  padding: 3rem;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: white;
+ 
+}
+  
+.auth-form .input {
+  width: 100%;
+  padding: 13px;
+  margin: 10px 30px; 
+  border-radius: 5px;
+  border: 1px solid #585679 ;
+  width: 300px;
+  height: 18px;
+  outline: none;
+  color: #100D40;
+  font-size: 1em;
+  transition: 0.5s;
+}
+
+select {
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  -ms-appearance:none;
+  appearance:none;
+  outline:0;
+  box-shadow:none;
+  border: 1px solid #585679 ;
+  background: #ffffff;
+  flex: 1;
+  padding: 1em;
+  color:#757373;
+  cursor:pointer;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  width: 326px;
+}
+select::-ms-expand {
+  display: none;}
+.select{
+  padding: 10px;
+  position: relative;
+  margin: 5px 20px;
+   display: flex;
+   width: 20em;
+   height: 3em;
+   line-height: 3;
+   background: #ffffff;
+   overflow: hidden;
+ 
+}
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1em;
+  cursor:pointer;
+  pointer-events:none;
+ color: #757373;
+}
+.btn{
+  margin: 5px 30px;
+  width: 330px;
+  padding: 0.9rem ;
+  background-color: #4C40F7;;
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 600;
+  color: white;
+  transition: 0.2s;
+  
+}
+.link-btn{
+  width: 100px;
+  border: none;
+  background: none;
+  color:#052BF3;
+  text-decoration: underline;
+}
+.forgot{
+  
+  font-size: 15px;
+  font-weight: 100;
+  width: 350px;
+  border: none;
+  background: none;
+  color:#0c32ef;
+  
+}
+.resend_mail{
+  background-color: #9c9a9a;
+}
+
+.auth-form h1{
+  color: #100D40;
+  font-size: 40px ;
+  font-weight: 700; 
+}
+.auth-form h2{
+  color: #100D40;
+  font-size: 30px ;
+  font-weight: 700;
+}
+
+.auth-form h3 {
+  color: #3A3A3A;
+  font-weight: 500;
+}
+
+.auth-form p{
+  color: #3A3A3A;
+  font-size: 15px; 
+  width: 400px;
+  
+}
+

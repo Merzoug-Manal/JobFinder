@@ -1,0 +1,114 @@
+.checkbox-group {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 40px;
+    margin-left: 20px;
+    font-size: 17px;
+    cursor: pointer;
+    user-select: none;
+    color: #100D40;
+  }
+  
+  .checkbox-container input   {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .checkmark{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 16px;
+    width: 16px;
+    border: 1.5px solid #100D40;
+    border-radius: 3px;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark {
+    background-color: #4C40F7;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .checkbox-container .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 9px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  .btn:disabled {
+      background-color: #b0abf7;
+    }
+  
+  .instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #e0e0e0;
+    color: #ffffff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+  }
+  
+  .instructions > svg {
+    margin-right: 0.25rem;
+  }
+  
+  .offscreen {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+  }
+  
+  .invalid {
+    color: red;
+    margin-left: 0.25rem;
+  }
+  
+  .errmsg {
+    background-color: lightpink;
+   color: firebrick;
+   font-weight: bold;
+   padding: 0.5rem;
+   margin-bottom: 0.5rem;
+ }
+ 
+ .line {
+   display: inline-block;
+ }
+ 
+ input .invalid {
+   color: red;
+ }
+ 
+ 
+ input .valid {
+   color: green;
+ }

@@ -1,0 +1,137 @@
+  .skillApp {
+    margin-left:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: fit-content;
+    width: 620px;
+    background-color: #f2f2f2 !important;
+    padding: 1rem 1rem !important;
+    
+    border: none !important; 
+  
+    color: #505050 !important;
+
+  
+  }
+  .infosPerson {
+    flex: 1 0 50%;
+    padding: 10px;
+   
+  }
+  
+ 
+.div1Exp {
+    flex: 1 0 50%;
+    padding: 10px;
+}
+
+ 
+.div3Educ {
+  flex: 1 0 50%;
+  padding: 10px;
+ 
+}  
+.div4Skill {
+  flex: 1 0 50%;
+  padding: 10px;
+}  
+.div5Lang {
+  flex: 1 0 50%;
+  padding: 10px;
+} 
+ .divDiplom {
+  flex: 1 0 50%;
+  padding: 10px;
+}  
+.div7Dip{
+  flex: 1 0 50%;
+  padding: 10px;
+}
+.save{
+
+  margin: 0PX 520px;
+  width: 70px;
+  height: 38px; ;
+  background-color: #100D40;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 500;
+  color:#ffffff;
+  border: solid 1.8px #100D40;
+  transition: 0.2s;
+ 
+}
+
+.photo {
+  width: 150px; 
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+ margin-top: 10px;
+  left: 20px;
+  
+}
+.choose-btn{
+text-align: 2px;
+  margin:  80px;
+ padding: 6px;
+  background-color: #f2f2f2;
+  color:#100D40;
+  border: solid 1.8px #100D40;
+  transition: 0.2s;
+  border-radius: 0.5rem;
+}
+.image{
+  margin-top: 10px;
+  width:200px;
+  height:200px;
+  display: flex;
+  align-items: center;
+
+}
+.Edit{
+  position: absolute;
+  top: 120px;
+  margin: 0PX 510px  !important ;
+  background-color: #F2F2F2  !important ;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #100D40;
+  transition: 0.2s;
+}
+.appLine {
+  border: none;
+  height: 2px;
+  background-color: black;
+  width: 580px; 
+}
+
+.add-btn{
+  position: absolute;
+  margin-left: 45vw;
+  background-color: #4C40F7  !important ;
+  top: 0px  !important ;
+ margin-top: 0px  !important ;
+margin: 0PX 530px  !important  ;
+}
+
+.experiences {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experience {
+  display: flex;
+ /* align-items: center; */
+  margin-bottom: 10px;
+} 
+
+
+ 
